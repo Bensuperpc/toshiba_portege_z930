@@ -6,7 +6,7 @@ fi
 if [ $# -eq 0 ]
   then
     echo "No arguments supplied"
-    echo "Please use: <script> <installation path of EFI part.>"
+    echo "Please use: <script> /dev/<installation path of EFI part.>"
     exit
 fi
 
